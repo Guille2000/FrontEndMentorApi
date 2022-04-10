@@ -1,0 +1,79 @@
+body {
+  background-color: #1f2632;
+  font-family: "Manrope", sans-serif;
+}
+
+.caja {
+  position: absolute;
+  width: 35%;
+  height: 40%;
+  top: 30%;
+  left: 29%;
+  background-color: #323a49;
+  padding: 3rem;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .caja {
+    width: 60%;
+    left: 10%;
+    height: 15%;
+  }
+}
+@media (max-width: 375px) {
+  .caja {
+    height: 31%;
+  }
+}
+@media (max-width: 360px) {
+  .caja {
+    height: 40%;
+  }
+}
+@media (max-width: 320px) {
+  .caja {
+    height: 60%;
+  }
+}
+.caja__heading {
+  color: #52ffa8;
+  font-size: 16px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .caja__heading {
+    text-align: justify;
+  }
+}
+.caja__contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .caja__contenedor {
+    gap: 0;
+  }
+}
+.caja__logo {
+  background-color: #52ffa8;
+  padding: 15px;
+  border-radius: 30px;
+  position: relative;
+  top: 20px;
+}
+@media (max-width: 768px) {
+  .caja__imagen img {
+    width: 300px;
+    font-size: 30px;
+  }
+}
+
+.centrar {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
